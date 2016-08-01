@@ -14,6 +14,11 @@ $entity = get_entity(elgg_get_page_owner_guid());
 $access = $entity->canEdit();
 $profilex_themes = unserialize(elgg_get_plugin_user_setting('profilex_theme', elgg_get_page_owner_guid(), 'profile_x'));
 
+// Output the Profile X containers
+elgg_extend_view('page/default', 'profile_x/container');
+elgg_extend_view('page/default', 'profile_x/message');
+elgg_extend_view('page/elements/html', 'profile_x/preload', 0);
+
 if ($access) {
 	elgg_register_menu_item('topbar', array(
 		'name' => 'profilex',

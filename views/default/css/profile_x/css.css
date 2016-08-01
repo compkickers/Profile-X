@@ -1,0 +1,171 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:400,100,100italic,300,300italic,400italic,700,700italic,900,900italic);
+.profilex-container {
+	font-family: 'Lato';
+	background: white;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 9999;
+	font-family: 'Lato', Helvetica, Arial;
+	font-weight: 100;
+}
+.profilex-container-close {
+	color: black;
+	float: right;
+	font-size: 50px;
+	margin-top: 30px;
+	margin-right: 20px;
+	cursor: pointer;
+}
+.profilex-options {
+	width: 800px;
+	margin: auto;
+}
+.profilex-container h1 {
+	font-family: 'Lato', Helvetica, Arial;
+	font-weight: 100;
+	font-size: 60px;
+	text-align: center;
+	margin-top: 150px;
+	line-height: 60px;
+}
+.profilex-container h2 {
+	font-family: 'Lato', Helvetica, Arial;
+	font-weight: 100;
+	text-align: center;
+}
+.profilex-layouts {
+	margin-top: 50px;
+	padding-bottom: 150px;
+}
+.profilex-layouts li {
+	float: left;
+	width: 32.5%;
+	margin-right: 10px;
+}
+.profilex-layouts li:last-child {
+	margin-right: 0;
+}
+.profilex-layouts li img {
+	width: 100%;
+	margin-bottom: 20px;
+}
+.profilex-inactive {
+	opacity: 0.5;
+}
+.profilex-inactive:hover {
+	opacity: 1;
+}
+.profilex-message-container {
+	display: none;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(0,0,0,0.8);
+}
+.profilex-message {
+	position: relative;
+	top: 50%;
+	width: 400px;
+	margin: 0 auto;
+	margin-top: -200px;
+	background: #ecf0f1;
+	padding: 20px;
+	font-family: 'Lato', Helvetica, Arial;
+	border-radius: 5px;
+	border: 10px solid #bdc3c7;
+}
+.profilex-message-to img {
+	border-radius: 50%;
+	width: 50px;
+}
+.profilex-message-to ul {
+	overflow: auto;
+}
+.profilex-message-to li {
+	float: left;
+}
+.profilex-message-to li:first-child {
+	margin-right: 20px;
+}
+.profilex-message-to li:last-child {
+	font-size: 20px;
+	line-height: 50px;
+}
+.profilex-message-body {
+	padding: 20px 0;
+}
+.profilex-message-body textarea {
+	margin-top: 10px;
+}
+.profilex-overflow-auto {
+	overflow: auto !important;
+}
+.profilex-layouts a {
+	text-decoration: none;
+}
+.profilex-layouts li {
+	text-align: center;
+}
+.profilex-layouts h2 span {
+	background: #e67e22;
+	display: inline;
+	color: white;
+	padding: 5px;
+	border-radius: 5px;
+}
+.profilex-layouts a h2 {
+	display: inline;
+}
+#profilex-select:hover h2 {
+	background: #3498db;
+	display: inline;
+	color: white;
+	padding: 5px;
+	border-radius: 5px;
+}
+.profilex-layouts .fa-gear {
+	margin-top: -10px;
+}
+.profilex-preload {
+	background: white;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 9999;
+}
+.profilex-preload i {
+	width: 100px;
+	height: 100px;
+	line-height: 100px;
+	font-size: 100px;
+	text-align: center;
+	position: relative;
+	top: 50%;
+	left: 50%;
+	margin-left: -50px;
+	margin-top: -50px;
+}
+.elgg-page-body, div[class*="profilex-"] .elgg-page-header, div[class*="profilex-"] .elgg-page-navbar {
+	display: none;
+}
+@media screen and (max-width: 1024px) {
+	.profilex-layouts {
+		background: white;
+	}
+	.profilex-layouts li {
+		float: none;
+		margin: auto !important;
+		padding-bottom: 20px;
+	}
+}
+
+
+
+

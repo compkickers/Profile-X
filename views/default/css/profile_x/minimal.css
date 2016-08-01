@@ -1,0 +1,140 @@
+body {
+	background-color: #2c3e50;
+	background-size: cover;
+	//margin-right: 420px;
+}
+.profilex-minimal .elgg-body {
+	overflow: visible;
+}
+.profilex-minimal .elgg-page-topbar {
+	background: url(https://i.imgur.com/1mTnt7w.png);
+	background-repeat: repeat-x;
+	border: 0;
+	height: 100px;
+}
+.elgg-icon, .profilex-minimal-settings {
+	color: white;
+}
+.profilex-minimal-logo {
+	float: left;
+}
+.profilex-minimal-logo a {
+	color: white;
+	display: inline;
+	padding: 10px 20px;
+	line-height: 30px;
+}
+.profilex-minimal-avatar {
+	background-size: cover;
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	display: block;
+	margin: auto;
+}
+.profilex-minimal-name {
+	color: white;
+	margin-bottom: 20px;
+}
+.profilex-minimal-brief {
+	color: white;
+	margin-top: 20px;
+	width: 300px;
+	display: block;
+	margin: 20px auto;
+}
+.elgg-page-footer {
+	display: none;
+}
+.profilex-minimal-settings {
+	position: absolute;
+	top: 0;
+	right: -440px;
+	width: 400px;
+	height: 100%;
+	background: rgba(0,0,0,0.7);
+	z-index: 9998;
+	padding: 20px;
+}
+.profilex-minimal-settings-open {
+	right: 0;
+}
+.profilex-minimal-open {
+	margin-right: 420px;
+}
+.elgg-system-messages {
+	margin-top: 100px;
+}
+.profilex-minimal-container {
+	text-align: center;
+}
+input[type=text], input[type=text]:focus, textarea, textarea:focus {
+	border-color: white;
+	background: transparent;
+	color: white;
+}
+.profilex-minimal-settings h3 {
+	margin-bottom: 5px;
+	color: white;
+}
+.profilex-minimal-gap {
+	display: block;
+	height: 50px;
+}
+.profilex-minimal-user input {
+	background: none;
+}
+.profilex-minimal-user input:first-child {
+	margin-right: 10px;
+}
+.profilex-minimal-user input:hover {
+	background: #8e44ad;
+	border-color: #8e44ad;
+}
+.profilex-minimal-background {
+	background-size: cover;
+	display: block;
+	width: 150px;
+	height: 150px;
+	margin-left: 62%;
+}
+.profilex-minimal-background-actions i {
+	width: 30px;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	background: #8e44ad;
+	border-radius: 50%;
+	position: relative;
+	top: 50px;
+	left: -130%;
+	cursor: pointer;
+}
+.profilex-minimal-background-actions i:first-child {
+	margin-right: 0px;
+}
+.colorpicker {
+	z-index: 9999;
+}
+.profilex-message-footer {
+	overflow: auto;
+}
+@media screen and (max-width: 1024px) {
+	.profilex-minimal-open {
+		margin-right: 0;
+	}
+	.profilex-minimal-settings {
+		top: 30px;
+		width: 360px;
+		background: rgba(0,0,0,0.9);
+	}
+	select {
+		color: white;
+	}
+	.colorpicker {
+		left: 20px !important;
+	}
+}
+
+
+

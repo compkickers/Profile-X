@@ -1,0 +1,407 @@
+.profilex-classic-search ::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: white;
+}
+.profilex-classic-search ::-moz-placeholder { /* Firefox 19+ */
+  color: white;
+}
+.profilex-classic-search :-ms-input-placeholder { /* IE 10+ */
+  color: white;
+}
+.profilex-classic-search :-moz-placeholder { /* Firefox 18- */
+  color: white;
+}
+body {
+	background: #ecf0f1;
+}
+.profilex-classic .elgg-main {
+	padding: 0;
+}
+.profilex-classic .elgg-menu-topbar-default {
+	float: right;
+}
+.profilex-classic .elgg-page-topbar {
+	padding: 0;
+	color: white;
+	background: #3498db;
+	border-top: 0;
+	border-bottom-color: #2980b9;
+}
+.profilex-classic .elgg-page-topbar .elgg-inner {
+	width: 990px;
+	margin: 0 auto;
+}
+.profilex-classic .elgg-page-topbar .elgg-icon {
+	color: white;
+}
+.profilex-classic-logo {
+	float: left;
+}
+.profilex-classic-logo a {
+	color: white;
+	display: inline;
+	padding: 8px 20px;
+	background: #2980b9;
+	line-height: 33px;
+}
+.profilex-classic-search input {
+	border: 0;
+	height: 32px;
+	border-radius: 0;
+	background: #3498db;
+}
+.profilex-classic-search input:focus {
+	border: 0;
+	background: white;
+}
+.profilex-classic-cover {
+	background: #ccc;
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 300px;
+	position: relative;
+}
+.profilex-classic-cover-button {
+	color: white;
+	border-radius: 2px;
+	cursor: pointer;
+	font-size: 16px;
+	position: absolute;
+	top: 10px;
+	left: 10px;
+	padding: 10px;
+}
+.profilex-classic-cover-button:hover {
+	background: rgba(0,0,0,0.5);
+}
+.profilex-classic-cover-button p {
+	float: right;
+	font-family: 'Lato', Helvetica, Arial;
+	margin-left: 5px;
+	display: none;
+}
+.profilex-classic-cover-button:hover p {
+	display: inline;
+}
+.profilex-classic-cover-message {
+	display: none;
+	font-family: 'Lato', Helvetica, Arial;
+	position: relative;
+	top: 40%;
+	font-size: 16px;
+	color: white;
+	padding: 10px;
+	border-radius: 2px;
+	background: rgba(0,0,0,0.5);
+	width: 190px;
+	text-align: center;
+	margin: 0 auto;
+}
+.profilex-classic-cover-options {
+	display: none;
+	padding-top: 10px;
+	padding-left: 200px;
+	padding-right: 20px;
+}
+.profilex-classic-cover-bottom {
+	height: 50px;
+	background: white;
+	border: 1px solid #bdc3c7;
+	border-top: 0;
+	border-bottom-left-radius: 2px;
+	border-bottom-right-radius: 2px;
+}
+.profilex-classic-user-avatar {
+	position: absolute;
+	bottom: -25px;
+	left: 20px;
+	width: 150px;
+	height: 150px;
+	border: 4px solid #eee;
+	border-radius: 3px;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+.profilex-classic-name {
+	position: absolute;
+	bottom: 25px;
+	left: 200px;
+	font-family: 'Lato', Helvetica, Arial;
+	color: white;
+	font-size: 30px;	
+}
+.profilex-classic-user-menu {
+	margin-left: 200px;
+}
+.profilex-classic-user-menu li {
+	float: left;
+}
+.profilex-classic-user-menu li a {
+	display: block;
+	padding: 15px 15px;
+	border-left: 1px solid #bdc3c7;
+	text-decoration: none;
+}
+.profilex-classic-user-menu li:last-child a {
+	border-right: 1px solid #bdc3c7;
+}
+.profilex-classic-user-menu li a:hover {
+	background: #ecf0f1;
+}
+.profilex-classic-user-actions {
+	float: right;
+}
+.profilex-classic-user-actions li {
+	float: left;
+	padding: 10px 0;
+	padding-right: 10px;
+}
+.profilex-classic-user-actions li:last-child {
+	padding-right: 20px;
+}
+.profilex-classic-container {
+	padding: 20px 0;
+	overflow: auto;
+}
+.profilex-classic-left {
+	float: left;
+	width: 40%;
+	margin-right: 20px;
+}
+.profilex-classic-right {
+	float: left;
+	width: 57.888%;
+}
+.profilex-classic-entry, .profilex-classic-activity-right .elgg-image-block {
+	padding: 10px;
+	background: white;
+	border-radius: 2px;
+	border: 1px solid #bdc3c7;
+	margin-bottom: 20px;
+}
+.profilex-classic-activity-right .elgg-list {
+	margin: 0;
+}
+.profilex-classic-activity-right .elgg-list-river > li {
+	border: 0;
+}
+.profilex-classic-activity-load-container, 
+.profilex-classic-messageboard-load-container,
+.profilex-classic-friends-load-container {
+	text-align: center;
+}
+.profilex-classic-activity-right .elgg-river-comments {
+	margin-top: 20px;
+}
+.profilex-classic-activity-right .elgg-item-object-comment .elgg-image-block {
+	padding: 10px 0;
+	border: 0;
+}
+.profilex-classic-user-menu-active {
+	background: #ecf0f1;
+}
+.profilex-classic h3 {
+	font-family: 'Lato', Helvetica, Arial;
+	display: inline;
+	margin-bottom: 20px;
+}
+.profilex-classic-activity-intro .fa-pencil, 
+.profilex-classic-photos .fa-plus, 
+.profilex-classic-photos .fa-pencil,
+.profilex-classic-about .fa-pencil {
+	float: right;
+	cursor: pointer;
+	color: #bdc3c7;
+}
+.profilex-classic-activity-intro .fa-pencil:hover, 
+.profilex-classic-photos .fa-plus:hover, 
+.profilex-classic-photos .fa-plus:hover, 
+.profilex-classic-photos .fa-pencil:hover,
+.profilex-classic-about .fa-pencil:hover {
+	color: #333;
+}
+.profilex-classic-photos .fa-plus {
+	margin-right: 10px;
+}
+.profilex-classic-activity-intro li.intro {
+	padding-top: 20px;
+}
+.profilex-classic-activity-intro li.intro p {
+	margin: 0;
+	padding: 0 50px;
+	padding-bottom: 20px;
+}
+.profilex-classic-activity-intro .fa-globe, 
+.profilex-classic-photos .fa-picture-o, 
+.profilex-classic-about .fa-user,
+.profilex-classic-about .fa-globe,
+.profilex-classic-about .fa-map-marker,
+.profilex-classic-about-blog .fa-book,
+.profilex-classic-messageboard .fa-comments,
+.profilex-classic-friends .fa-group {
+	background: #3498db;
+	width: 20px;
+	height: 20px;
+	line-height: 20px;
+	border-radius: 50%;
+	text-align: center;
+	color: white;
+	margin-right: 5px;
+	position: relative;
+	top: -1px;
+}
+#profilex-classic-activity-intro-save, 
+#profilex-classic-activity-photos-save,
+#profilex-classic-about-save {
+	margin-top: 10px;
+}
+.profilex-classic-photos ul {
+	margin-top: 20px;
+	overflow: auto;
+}
+.profilex-classic-photos ul li {
+	width: 32.777%;
+	float: left;
+	line-height: 0;
+	margin: 1px;
+	height: 122px;
+	background-size: cover;
+}
+.profilex-classic-photos-move {
+	cursor: move;
+}
+.profilex-photo-item {
+	width: 121.75px;
+	height: 122px;
+}
+.profilex-classic-photos .fa-minus-circle {
+	position: relative;
+	color: #e74c3c;
+	top: 5px;
+	left: 5px;
+	cursor: pointer;
+}
+.profilex-classic-photo-loader {
+	float: right;
+	line-height: 50px;
+}
+.profilex-classic-photos-1-layout {
+	width: 100% !important;
+	height: 350px !important;
+}
+.profilex-classic-photos-2-layout {
+	width: 49.4% !important;
+	height: 200px !important;
+}
+.profilex-classic-photos-3-layout:first-child {
+	width: 100% !important;
+	height: 350px !important;
+}
+.profilex-classic-photos-3-layout:nth-child(2), 
+.profilex-classic-photos-3-layout:nth-child(3),
+.profilex-classic-photos-8-layout:first-child,
+.profilex-classic-photos-8-layout:nth-child(2) {
+	width: 49.46% !important;
+	height: 150px !important;
+}
+.profilex-classic-photos-4-layout {
+	width: 49.4% !important;
+	height: 180px !important;
+}
+.profilex-classic-photos-5-layout:first-child, .profilex-classic-photos-5-layout:nth-child(2) {
+	width: 49.4% !important;
+	height: 180px !important;
+}
+.profilex-classic-photos-5-layout:nth-child(3), .profilex-classic-photos-5-layout:nth-child(4), .profilex-classic-photos-5-layout:nth-child(5) {
+	width: 32.555% !important;
+	height: 120px !important;
+}
+.profilex-classic-photos-7-layout:first-child {
+	width: 100% !important;
+	height: 350px !important;
+}
+#grid li a {
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.profilex-classic-activity-post .elgg-form-thewire-add {
+	margin-bottom: 20px;
+}
+.profilex-classic-about-text {
+	margin: 20px 0;
+}
+.profilex-classic-about .elgg-input-plaintext {
+	margin-top: 20px;
+}
+.profilex-about-gap {
+	display: block;
+	margin-bottom: 10px;
+}
+.profilex-about-input {
+	width: 95%;
+}
+input[name="website"] {
+	width: 94%;
+}
+.profilex-about-description {
+	width: 100%;
+}
+.profilex-about-access {
+	float: none;
+}
+.profilex-about-align-right {
+	text-align: right;
+}
+.profilex-classic-cover-link {
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+@media screen and (max-width: 1024px) {
+	.profilex-classic-user-avatar {
+		bottom: 70px;
+		left: 50%;
+		margin-left: -75px;
+	}
+	.profilex-classic-name {
+		left: 50%;
+		width: 100%;
+		text-align: center;
+	}
+	.profilex-classic-user-menu {
+		margin-left: 0;
+	}
+	.profilex-classic-user-menu li {
+		width: 50%;
+		text-align: center;
+	}
+	.profilex-classic-cover-bottom {
+		height: 100px;
+		border: 0;
+	}
+	.profilex-classic-user-menu li a, .profilex-classic-user-menu li:last-child a {
+		border: 0;
+	}
+	.profilex-classic-container {
+		padding: 20px;
+		overflow: visible;
+	}
+	.profilex-classic-left, .profilex-classic-right {
+		width: 100%;
+	}
+	.profilex-classic-cover-options {
+		padding-top: 35px;
+		padding-left: 20px;
+	}
+	#cover-option-drag {
+		display: none;
+	}
+	.profilex-classic .elgg-page-topbar {
+		height: 70px;
+		padding-right: 20px;
+	}
+	.profilex-classic .elgg-page-topbar .elgg-inner {
+		width: 100%;
+	}
+}

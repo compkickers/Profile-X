@@ -10,6 +10,8 @@ elgg_register_css('profilex-css', 'mod/profile_x/views/default/css/profile_x/css
 elgg_load_css('profilex-css');
 elgg_load_js('lightbox');
 elgg_load_css('lightbox');
+elgg_register_js('liteuploader', 'mod/imgur/vendor/liteuploader.js');
+elgg_load_js('liteuploader');
 $entity = get_entity(elgg_get_page_owner_guid());
 $access = $entity->canEdit();
 $profilex_themes = unserialize(elgg_get_plugin_user_setting('profilex_theme', elgg_get_page_owner_guid(), 'profile_x'));

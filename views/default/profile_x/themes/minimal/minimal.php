@@ -25,6 +25,7 @@ $add = elgg_view('input/button', array(
 	'class' => 'elgg-button',
 	'id' => 'profilex-minimal-add'
 ));
+$message = '';
 if (elgg_get_page_owner_guid() != elgg_get_logged_in_user_guid()) {
 	$message = elgg_view('input/button', array(
 		'value' => elgg_echo('profilex:message'),
